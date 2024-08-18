@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App {
+  text-align: center;
+}
+
+.split-screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-pane, .right-pane {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
